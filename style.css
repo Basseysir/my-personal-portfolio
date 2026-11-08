@@ -962,3 +962,72 @@ PROFESSIONAL ABOUT PAGE
     border-color: #8b5cf6;
     transform: translateY(-4px);
 }
+.download-btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.download-btn:hover {
+    background: #0056b3;
+    transform: translateY(-3px);
+}
+/* PRELOADER
+/* PRELOADER */
+
+/* #preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #0a192f;
+    z-index: 99999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.6s ease,
+}
+
+.loader-content {
+    text-align: center;
+    color: white;
+}
+
+.loader-content h1 {
+    font-size: 35px;
+    letter-spacing: 5px;
+}
+
+.loader-content h1 span {
+    color: #00bcd4;
+}
+
+.loader {
+    width: 45px;
+    height: 45px;
+    border: 4px solid rgba(255, 255, 255, 0.2);
+    border-top: 4px solid #00bcd4;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin: 20px auto;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+#preloader.hide {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+} */ 
