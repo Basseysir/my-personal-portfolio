@@ -990,14 +990,11 @@ PROFESSIONAL ABOUT PAGE
     height: 100vh;
     background: #0a192f;
     z-index: 99999;
-
     display: flex;
     justify-content: center;
     align-items: center;
-
     opacity: 1;
     visibility: visible;
-
     transition: opacity 0.6s ease, visibility 0.6s ease;
 }
 
@@ -1230,7 +1227,7 @@ PROFESSIONAL ABOUT PAGE
 }
 
 /* =================================
-   RESPONSIVE PROJECTS PAGE
+RESPONSIVE PROJECTS PAGE
 ================================= */
 
 /* TABLETS */
@@ -1273,6 +1270,33 @@ PROFESSIONAL ABOUT PAGE
     .project-card a {
         display: inline-block;
         margin-top: 10px;
+    }
+
+}
+
+/* FIX MOBILE HERO INTRO TEXT */
+
+@media (max-width: 768px) {
+
+    .hero {
+        overflow: visible;
+        min-height: 100vh;
+        height: auto;
+    }
+
+    .hero-content {
+        overflow: visible;
+    }
+
+    .hero-content .intro {
+        display: block;
+        height: auto;
+        overflow: visible;
+        line-height: 1.8;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        padding: 5px 0;
+        transform: none;
     }
 
 }
